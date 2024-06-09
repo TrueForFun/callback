@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import Memo from "./Memo";
 
 function App() {
   const [userInput, setUserInput] = useState("");
@@ -27,6 +28,9 @@ function App() {
         value={userInput}
         onChange={(e) => setUserInput(e.target.value)}
       ></input>
+      <br />
+      <br />
+      <Memo />
     </div>
   );
 }
