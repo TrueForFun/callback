@@ -32,7 +32,7 @@ const Memo = () => {
       <p>Number: {fibNumber || "--"}</p>
       <br></br>
       <br></br>
-      <label>Random Input:</label>
+      <label>Input from Memo:</label>
       <input
         type="text"
         value={randomInput}

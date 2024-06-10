@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import Memo from "./Memo";
+import Ref from "./Ref";
 
 function App() {
   const [userInput, setUserInput] = useState("");
@@ -31,6 +32,7 @@ function App() {
       <br />
       <br />
       <Memo />
+      <Ref />
     </div>
   );
 }
