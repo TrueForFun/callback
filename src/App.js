@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import Memo from "./Memo";
 import Ref from "./Ref";
+import Reduce from "./Reduce";
 
 function App() {
   const [userInput, setUserInput] = useState("");
@@ -30,9 +31,11 @@ function App() {
         onChange={(e) => setUserInput(e.target.value)}
       ></input>
       <br />
-      <br />
       <Memo />
+      <br />
       <Ref />
+      <br />
+      <Reduce />
     </div>
   );
 }
