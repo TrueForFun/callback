@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import Memo from "./Memo";
 import Ref from "./Ref";
 import Reduce from "./Reduce";
+import LayOutEffect from "./LayOutEffect";
 
 function App() {
   const [userInput, setUserInput] = useState("");
@@ -36,6 +37,8 @@ function App() {
       <Ref />
       <br />
       <Reduce />
+      <br />
+      <LayOutEffect />
     </div>
   );
 }
